@@ -2,5 +2,5 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo 'Test develop'
       - echo 'Nothing to do'
+      - echo 'Test develop'
