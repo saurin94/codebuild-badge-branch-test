@@ -3,4 +3,4 @@ phases:
   build:
     commands:
       - echo 'Nothing to do - TEST DEVELOP'
-      - if [ $CODEBUILD_BUILD_NUMBER -gt 50 ]; then fail; fi
+      - if [ $CODEBUILD_BUILD_NUMBER -gt 10 ]; then fail; fi
